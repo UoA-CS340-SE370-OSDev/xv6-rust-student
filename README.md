@@ -1,13 +1,17 @@
-# octopos
-
-xv6 for RISC-V in Rust
+# xv6 for RISC-V in Rust
 
 ## Usage
 
 ### Prerequisites
 
-- Rust nightly toolchain
-- qemu-system-riscv64
+#### Rust nightly toolchain
+
+Run `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` in your terminal, then once you have completed its instructions, run `rustup toolchain install nightly
+` to get the nightly toolchain.
+  
+#### qemu-system-riscv64
+
+Run `sudo apt update && sudo apt install qemu-kvm qemu-system qemu-utils` in your terminal to install QEMU in Ubuntu 24.04.
 
 ### Build and Run
 
